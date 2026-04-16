@@ -8,7 +8,7 @@ Bu proje, HTML5 ve CSS3'ün modern yeteneklerini sergilemek amacıyla geliştiri
 
 - **Zero-JS Lightbox (Modal) Sistemi:** Gücünü CSS `:target` seçicisinden alan bu sistem, sayfa performansını artırırken JavaScript bağımlılığını ortadan kaldırır. `backdrop-filter` ile modern bir cam (glassmorphism) efekti sunar.
 - **Gelişmiş CSS Grid Layout:** Esnek kart yapısı, farklı ekran çözünürlüklerine göre otomatik olarak yeniden boyutlanır.
-- **Görsel Optimizasyonu:** Tüm görseller Google Squoosh kullanılarak `.webp` formatına dönüştürülmüş ve yüksek görsel kalite korunurken dosya boyutları %85'e varan oranlarda düşürülmüştür.
+- **Görsel Optimizasyonu:** Görseller Google Squoosh kullanılarak `.webp` formatına dönüştürülmüş ve yüksek görsel kalite korunurken dosya boyutları %85'e varan oranlarda düşürülmüştür.
 - **Modern Tipografi & SVG:** "Inter" yazı tipi ile temiz bir okuma deneyimi sunulurken, Starfleet(benzeri) deltası için optimize edilmiş inline SVG kullanılmıştır.
 
 ## 🛠️ Teknik Yığın (Tech Stack)
