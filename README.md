@@ -2,6 +2,8 @@
 
 Bu proje, HTML5 ve CSS3'ün modern yeteneklerini sergilemek amacıyla geliştirilmiş, Star Trek evrenine odaklanan interaktif bir uzay gemisi galerisidir. Projenin temel amacı, JavaScript kullanmadan sadece saf CSS ile karmaşık kullanıcı etkileşimlerini (modal, animasyon vb.) yönetmektir.
 
+**🌐 Canlı Önizleme (Live Demo):** [Projeyi Görüntülemek İçin Tıklayın]: https://dalyusufcan-sketch.github.io/WebOdev_6/#
+
 ## 🚀 Öne Çıkan Teknik Özellikler
 
 - **Zero-JS Lightbox (Modal) Sistemi:** Gücünü CSS `:target` seçicisinden alan bu sistem, sayfa performansını artırırken JavaScript bağımlılığını ortadan kaldırır. `backdrop-filter` ile modern bir cam (glassmorphism) efekti sunar.
