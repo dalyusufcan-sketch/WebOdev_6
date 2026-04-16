@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Trek Gemi Galerisi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="64x64" href="images/favicon.png">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1 class="site-title">
+            <svg class="sf-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 130" aria-label="Starfleet Logosu">
+                <defs>
+                    <linearGradient id="sfGold" x1="15%" y1="0%" x2="85%" y2="100%">
+                        <stop offset="0%" stop-color="#fff3b0" />
+                        <stop offset="30%" stop-color="#f0c030" />
+                        <stop offset="70%" stop-color="#c07015" />
+                        <stop offset="100%" stop-color="#6a3800" />
+                    </linearGradient>
+                    <linearGradient id="sfEdgeL" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#ffe878" />
+                        <stop offset="100%" stop-color="#d49018" />
+                    </linearGradient>
+                    <filter id="sfGlow" x="-30%" y="-30%" width="160%" height="160%">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="b" />
+                        <feMerge>
+                            <feMergeNode in="b" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+                <path d="M52,4 L13,122 C34,106 68,106 87,122 C93,76 84,32 52,4 Z" fill="url(#sfGold)" />
+                <path d="M52,4 L13,122 C34,106 68,106 87,122 C93,76 84,32 52,4 Z" fill="black" opacity="0.38" />
+                <path d="M52,6 L15,120" fill="none" stroke="#ffe878" stroke-width="1.6" opacity="0.75"
+                    filter="url(#sfGlow)" />
+                <path d="M52,6 C80,34 90,76 85,120" fill="none" stroke="#f0c030" stroke-width="1.1" opacity="0.55"
+                    filter="url(#sfGlow)" />
+                <path d="M30,115 C45,108 60,108 72,115" fill="none" stroke="#ffe070" stroke-width="0.8" opacity="0.4" />
+                <path d="M52,14 L49,66 L52,58 L55,66 Z" fill="#1a0900" opacity="0.88" />
+                <path d="M52,64 L54.8,73 L63,75 L54.8,77 L52,86 L49.2,77 L41,75 L49.2,73 Z" fill="#1a0900"
+                    opacity="0.88" />
+                <path d="M52,86 L49,116 L52,109 L55,116 Z" fill="#1a0900" opacity="0.70" />
+            </svg>
+            Star Trek Gemi Galerisi
+        </h1>
+    </header>
+
+    <main>
+        <section class="grid-container">
+
+            <!-- BÜYÜK KART — USS Enterprise NCC-1701 (Kelvin Universe) -->
+            <div class="card card-large">
+                <a href="#modal-1" class="card-img-wrapper" aria-label="USS Enterprise'i büyüt">
+                    <img class="card-img" src="images/photo1.webp" alt="USS Enterprise NCC-1701">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Enterprise NCC-1701</h3>
+                    <p class="card-text">Constitution sınıfı • Federasyon bayrak gemisi (Kelvin Universe)</p>
+                </div>
+            </div>
+
+            <!-- USS Voyager -->
+            <div class="card">
+                <a href="#modal-2" class="card-img-wrapper" aria-label="USS Voyager'ı büyüt">
+                    <img class="card-img" src="images/photo2.webp" alt="USS Voyager NCC-74656">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Voyager</h3>
+                    <p class="card-text">Intrepid sınıfı • NCC-74656</p>
+                </div>
+            </div>
+
+            <!-- USS Odyssey -->
+            <div class="card">
+                <a href="#modal-3" class="card-img-wrapper" aria-label="USS Odyssey'yi büyüt">
+                    <img class="card-img" src="images/photo3.webp" alt="USS Odyssey NCC-71832">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Odyssey</h3>
+                    <p class="card-text">Galaxy sınıfı • NCC-71832</p>
+                </div>
+            </div>
+
+            <!-- USS Enterprise NCC-1701-E -->
+            <div class="card">
+                <a href="#modal-4" class="card-img-wrapper" aria-label="USS Enterprise-E'yi büyüt">
+                    <img class="card-img" src="images/photo4.webp" alt="USS Enterprise NCC-1701-E">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title" style="font-size: 0.74rem">USS Enterprise NCC-1701-E</h3>
+                    <p class="card-text" style="font-size: 0.65rem">Sovereign sınıfı • Federasyon bayrak gemisi • 2379
+                    </p>
+                </div>
+            </div>
+
+            <!-- USS Stargazer -->
+            <div class="card">
+                <a href="#modal-5" class="card-img-wrapper" aria-label="USS Stargazer'ı büyüt">
+                    <img class="card-img" src="images/photo5.webp" alt="USS Stargazer NCC-82893">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Stargazer</h3>
+                    <p class="card-text">Sagan sınıfı • NCC-82893</p>
+                </div>
+            </div>
+
+            <!-- USS Titan (photo8) -->
+            <div class="card">
+                <a href="#modal-8" class="card-img-wrapper" aria-label="USS Titan'ı büyüt">
+                    <img class="card-img" src="images/photo8.webp" alt="USS Titan NCC-80102">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Titan</h3>
+                    <p class="card-text">Luna sınıfı • NCC-80102</p>
+                </div>
+            </div>
+
+            <!-- USS Intrepid (photo9) -->
+            <div class="card">
+                <a href="#modal-9" class="card-img-wrapper" aria-label="Gemi görselini büyüt">
+                    <img class="card-img" src="images/photo9.webp" alt="USS Intrepid NCC-79520">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Intrepid</h3>
+                    <p class="card-text">Duderstadt sınıfı • NCC-79520</p>
+                </div>
+            </div>
+
+            <!-- USS Thunderchild -->
+            <div class="card">
+                <a href="#modal-10" class="card-img-wrapper" aria-label="USS Thunderchild'ı büyüt">
+                    <img class="card-img" src="images/photo10.webp" alt="USS Thunderchild NCC-63549">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Thunderchild</h3>
+                    <p class="card-text">Akira sınıfı • NCC-63549</p>
+                </div>
+            </div>
+
+            <!-- USS Excelsior -->
+            <div class="card">
+                <a href="#modal-11" class="card-img-wrapper" aria-label="USS Excelsior'ı büyüt">
+                    <img class="card-img" src="images/photo11.webp" alt="USS Excelsior NCC-2000">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Excelsior</h3>
+                    <p class="card-text">Excelsior sınıfı • NCC-2000</p>
+                </div>
+            </div>
+
+            <!-- USS Prometheus -->
+            <div class="card">
+                <a href="#modal-12" class="card-img-wrapper" aria-label="USS Prometheus'u büyüt">
+                    <img class="card-img" src="images/photo12.webp" alt="USS Prometheus NX-59650">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Prometheus</h3>
+                    <p class="card-text">Prometheus sınıfı • NX-59650 • Taktik prototip</p>
+                </div>
+            </div>
+
+            <!-- USS Reliant -->
+            <div class="card">
+                <a href="#modal-13" class="card-img-wrapper" aria-label="USS Reliant'ı büyüt">
+                    <img class="card-img" src="images/photo13.webp" alt="USS Reliant NCC-1864">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">USS Reliant</h3>
+                    <p class="card-text">Miranda sınıfı • NCC-1864</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ══════════════════════════════════════════════════
+             LİGHTBOX MODALLERI — CSS :target ile (JS yok)
+             Kapat: X butonuna veya arka plana tıkla
+        ══════════════════════════════════════════════════ -->
+
+        <div class="modal" id="modal-1">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo1.webp" alt="USS Enterprise NCC-1701" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Enterprise NCC-1701</strong>
+                    <span>Constitution sınıfı • Federasyon bayrak gemisi (Kelvin Universe)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-2">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo2.webp" alt="USS Voyager NCC-74656" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Voyager</strong>
+                    <span>Intrepid sınıfı • NCC-74656</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-3">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo3.webp" alt="USS Odyssey NCC-71832" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Odyssey</strong>
+                    <span>Galaxy sınıfı • NCC-71832</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-4">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo4.webp" alt="USS Enterprise NCC-1701-E" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Enterprise NCC-1701-E</strong>
+                    <span>Sovereign sınıfı • Federasyon bayrak gemisi • 2379</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-5">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo5.webp" alt="USS Stargazer NCC-82893" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Stargazer</strong>
+                    <span>Sagan sınıfı • NCC-82893</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-8">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo8.webp" alt="USS Titan NCC-80102" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Titan</strong>
+                    <span>Luna sınıfı • NCC-80102</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-9">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo9.webp" alt="USS Intrepid NCC-79520" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Intrepid</strong>
+                    <span>Duderstadt sınıfı • NCC-79520</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-10">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo10.webp" alt="USS Thunderchild NCC-63549" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Thunderchild</strong>
+                    <span>Akira sınıfı • NCC-63549</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-11">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo11.webp" alt="USS Excelsior NCC-2000" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Excelsior</strong>
+                    <span>Excelsior sınıfı • NCC-2000</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-12">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo12.webp" alt="USS Prometheus NX-59650" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Prometheus</strong>
+                    <span>Prometheus sınıfı • NX-59650 • Taktik prototip</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-13">
+            <a href="#" class="modal-backdrop" aria-label="Kapat"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close" aria-label="Kapat">✕</a>
+                <img src="images/photo13.webp" alt="USS Reliant NCC-1864" class="modal-img">
+                <div class="modal-caption">
+                    <strong>USS Reliant</strong>
+                    <span>Miranda sınıfı • NCC-1864</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Star Trek Gemi Galerisi</p>
+        <p class="footer-disclaimer">Bu sayfa bir okul projesi için hazırlanmıştır. Ticari amacı yoktur.<br>
+            Star Trek ve tüm ilgili markalar Paramount Global'e aittir.</p>
+    </footer>
+
+</body>
+
+</html>
