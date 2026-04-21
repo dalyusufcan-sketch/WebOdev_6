@@ -32,7 +32,7 @@ Bu proje, HTML5 ve CSS3'ün modern yeteneklerini sergilemek amacıyla geliştiri
 
 ## 🎨 Tasarım ve Kaynakça
 
-- **Ana Görsel (Hero):** USS Enterprise NCC-1701 (Kelvin Universe) görseli sanatçı **[Jetfreak-7](https://www.deviantart.com/jetfreak-7)** (DeviantArt) tarafından oluşturulmuştur.
+- **Görseller:** USS Thunderchild NCC-63549, USS Excelsior NCC-2000, USS Prometheus NX-59650 ve hero görseli olan USS Enterprise NCC-1701 (Kelvin Universe) görselleri sanatçı **[Jetfreak-7](https://www.deviantart.com/jetfreak-7)** (DeviantArt) tarafından oluşturulmuştur.
 - **Tasarım Dili:** Star Trek'in modern dönem (Picard/Discovery) arayüz estetiğinden esinlenilmiştir.
 
 ## ⚖️ Yasal Bilgilendirme (Legal Disclaimer)
